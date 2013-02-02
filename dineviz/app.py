@@ -28,6 +28,16 @@ class APIServer(object):
         id = long(id)
         return restaurants.find_by_id(id)
 
+    @json_api
+    def fuzzy_match(self, lat, lon, name):
+        lat = float(lat)
+        lon = float(lon)
+        return restaurants.find_fuzzy(lat, lon, name)
+
+    @json_api
+    def all(self):
+        return restaurants.all()
+
 if __name__ == '__main__':
     DATA_FILE = 'data.csv'
     restaurants = RestaurantDatabase()

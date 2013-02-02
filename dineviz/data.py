@@ -2,6 +2,9 @@
 from csv import DictReader
 from rtree import index
 from random import choice
+import re
+
+SEPARATOR = re.compile('[ -]')
 
 class RestaurantDatabase(object):
     establishments = dict()
@@ -69,5 +72,24 @@ class RestaurantDatabase(object):
         
     def find_by_id(self, id):
         return self.establishments[id]
+
+    def find_fuzzy(self, lat, lon, name):
+        name = name.lower().replace("'", '')
+        matches = self.tree.nearest((lat, lon, lat, lon), 100)
+        top_score = None
+        best_match = None
+        match_set = set(SEPARATOR.split(name))
+        for establishment_id in matches:
+            establishment = self.establishments[establishment_id]
+            test_set = set(SEPARATOR.split(establishment['name'].lower().replace("'", '')))
+            score = len(match_set.intersection(test_set))
+            print score, establishment['name']
+            if score > top_score:
+                best_match = establishment
+                top_score = score
+        return best_match
+
+    def all(self):
+        return self.establishments
 
 
