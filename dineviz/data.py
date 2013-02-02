@@ -8,8 +8,12 @@ class RestaurantDatabase(object):
     tree = index.Index()
     inspections = dict()
 
-    def __init__(self, fh):
+    def __init__(self):
+        pass
+
+    def load_csv(self, fh):
         reader = DictReader(fh)
+        print 'foo'
 
         for row in reader:
             establishment_id = long(row['establishment_id'])
@@ -28,7 +32,7 @@ class RestaurantDatabase(object):
                 establishment['type'] = row['establishmenttype']
                 establishment['inspections'] = dict()
 
-                self.tree.insert(establishment_id, (lat, lon, lat, lon), establishment)
+                self.tree.insert(establishment_id, (lat, lon, lat, lon))
                 self.establishments[establishment_id] = establishment
 
             establishment = self.establishments[establishment_id]
@@ -59,7 +63,9 @@ class RestaurantDatabase(object):
         print pick
         return pick
 
-    def find_nearest(self, lat, lon):
-        pass
+    def find_nearest(self, lat, lon, n):
+        nearest = self.tree.nearest((lat, lon, lat, lon), n)
+        return list(self.establishments[x] for x in nearest)
+        
 
 
