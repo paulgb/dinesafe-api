@@ -1,6 +1,11 @@
 
 from flask import Flask, Response
+
 app = Flask(__name__)
+
+from data import RestaurantDatabase
+
+restaurants = RestaurantDatabase(file('data.csv'))
 
 JSON = 'text/json'
 
@@ -8,6 +13,4 @@ JSON = 'text/json'
 def status():
     return Response('OK', mimetype=JSON)
 
-if __name__ == "__main__":
-    app.run()
 
