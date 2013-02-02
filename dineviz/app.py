@@ -2,28 +2,21 @@
 import cherrypy
 
 from data import RestaurantDatabase
+from jsonapi import json_api
 
 class APIServer(object):
     def __init__(self, restaurants):
         self.restaurants = restaurants
 
-    @cherrypy.expose
-    @cherrypy.tools.json_out()
-    def getrange(self, limit=4):
-        return list(range(int(limit)))
-
-    @cherrypy.expose
-    @cherrypy.tools.json_out()
+    @json_api
     def index(self):
         return 'OK'
 
-    @cherrypy.expose
-    @cherrypy.tools.json_out()
+    @json_api
     def random(self):
         return self.restaurants.random()
 
-    @cherrypy.expose
-    @cherrypy.tools.json_out()
+    @json_api
     def near(self, lat, lon, n=10):
         lat = float(lat)
         lon = float(lon)

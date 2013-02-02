@@ -1,12 +1,14 @@
 
-import json
 from functools import wraps
 
-from flask import Response
 import cherrypy
 
-JSON = 'text/json'
-
-def jsonify(obj):
-    return json.dumps(obj, sort_keys=True, indent=4, separators=(',', ':'))
-
+def json_api(fun):
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    @wraps(fun)
+    def jsonified(*args, **kwargs):
+        cherrypy.response.headers['Access-Control-Allow-Origin'] = '*'
+        return fun(*args, **kwargs)
+    return jsonified
+_
