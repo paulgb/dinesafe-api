@@ -11,4 +11,4 @@ def json_api(fun):
         cherrypy.response.headers['Access-Control-Allow-Origin'] = '*'
         return fun(*args, **kwargs)
     return jsonified
-_
+
