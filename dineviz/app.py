@@ -1,32 +1,42 @@
 
-from flask import Flask, Response, request
-
-app = Flask(__name__)
-
-#DATA_FILE = 'data.csv'
-DATA_FILE = 'sample.csv'
+import cherrypy
 
 from data import RestaurantDatabase
-from jsonapi import json_endpoint
 
-restaurants = RestaurantDatabase()
-restaurants.load_csv(file(DATA_FILE))
+class APIServer(object):
+    def __init__(self, restaurants):
+        self.restaurants = restaurants
 
-@app.route("/")
-@json_endpoint
-def status():
-    return 'OK'
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def getrange(self, limit=4):
+        return list(range(int(limit)))
 
-@app.route('/random')
-@json_endpoint
-def random():
-    return restaurants.random()
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def index(self):
+        return 'OK'
 
-@app.route('/near')
-@json_endpoint
-def near():
-    lat = float(request.args['lat'])
-    lon = float(request.args['lon'])
-    n = int(request.args.get('n', 10))
-    return restaurants.find_nearest(lat, lon, n)
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def random(self):
+        return self.restaurants.random()
+
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def near(self, lat, lon, n=10):
+        lat = float(lat)
+        lon = float(lon)
+        n = int(n)
+        return restaurants.find_nearest(lat, lon, n)
+
+if __name__ == '__main__':
+    DATA_FILE = 'sample.csv'
+    restaurants = RestaurantDatabase()
+    restaurants.load_csv(file(DATA_FILE))
+
+    cherrypy.server.socket_host = '0.0.0.0'
+    cherrypy.quickstart(APIServer(restaurants))
+
+app = Flask(__name__)
 
