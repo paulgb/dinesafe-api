@@ -1,14 +1,19 @@
 
 from csv import DictReader
 from rtree import index
+from random import choice
 
 class RestaurantDatabase(object):
     establishments = dict()
     tree = index.Index()
     inspections = dict()
 
-    def __init__(self, fh):
+    def __init__(self):
+        pass
+
+    def load_csv(self, fh):
         reader = DictReader(fh)
+        print 'foo'
 
         for row in reader:
             establishment_id = long(row['establishment_id'])
@@ -19,15 +24,15 @@ class RestaurantDatabase(object):
                 lat = float(row['lat'])
                 lon = float(row['lon'])
 
+                establishment['name'] = row['establishment_name']
                 establishment['lat'] = lat
                 establishment['lon'] = lon
                 establishment['address'] = row['establishment_address']
                 establishment['id'] = establishment_id
                 establishment['type'] = row['establishmenttype']
-                establishment['status'] = row['establishment_status']
                 establishment['inspections'] = dict()
 
-                self.tree.insert(establishment_id, (lat, lon, lat, lon), establishment)
+                self.tree.insert(establishment_id, (lat, lon, lat, lon))
                 self.establishments[establishment_id] = establishment
 
             establishment = self.establishments[establishment_id]
@@ -36,6 +41,7 @@ class RestaurantDatabase(object):
                 inspection = dict()
                 inspection['date'] = row['inspection_date']
                 inspection['infractions'] = list()
+                inspection['status'] = row['establishment_status']
 
                 establishment['inspections'][inspection_id] = inspection
                 self.inspections[inspection_id] = inspection
@@ -51,7 +57,15 @@ class RestaurantDatabase(object):
                 infraction['amount_fined'] = row['amount_fined']
                 inspection['infractions'].append(infraction)
 
-    def find_nearest(self, lat, lon):
-        pass
+    def random(self):
+        c = choice(self.establishments.keys())
+        pick = self.establishments[c]
+        print pick
+        return pick
+
+    def find_nearest(self, lat, lon, n):
+        nearest = self.tree.nearest((lat, lon, lat, lon), n)
+        return list(self.establishments[x] for x in nearest)
+        
 
 

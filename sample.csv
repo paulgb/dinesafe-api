@@ -1,0 +1,100 @@
+"establishment_address","row_id","establishment_id","inspection_id","establishment_name","establishmenttype","establishment_status","minimum_inspections_peryear","infraction_details","inspection_date","severity","action","court_outcome","amount_fined","full_address","lat","lon"
+"1 ADELAIDE ST E",51425,"10384957","102850233","TOUCH","Food Court Vendor","Pass",3,"",2012-10-31,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51421,"10384957","102576925","TOUCH","Food Court Vendor","Pass",3,"",2011-08-15,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51413,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"FAIL TO PROVIDE SOAP OR DETERGENT IN FOOD PREPARATION AREA O. REG  562/90 SEC. 20(1)(C)",2011-04-15,"S - Significant","Corrected During Inspection","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51415,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"Operator fail to properly wash multi-use utensils",2011-04-15,"S - Significant","Notice to Comply","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51423,"10384957","102698561","TOUCH","Food Court Vendor","Pass",3,"",2012-02-21,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51417,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"Operator fail to provide easily readable thermometer(s)",2011-04-15,"S - Significant","Notice to Comply","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",18849,"9337616","102571454","STARBUCKS","Food Take Out","Pass",1,"",2011-08-09,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51422,"10384957","102658544","TOUCH","Food Court Vendor","Pass",3,"",2011-12-23,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51418,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"Operator fail to use proper procedure(s) to ensure food safety",2011-04-15,"S - Significant","Ticket","Conviction - Fined",60,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",53161,"10390332","102445873","INTERNATIONAL NEWS","Food Store (Convenience / Variety)","Pass",1,"",2011-01-26,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51419,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"Operator fail to use proper utensils to ensure food safety",2011-04-15,"S - Significant","Notice to Comply","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51414,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"Fail to ensure the presence of the holder of a valid food handler's certificate  -  Municipal Code Chapter 545 Sec. G(17)(a)",2011-04-15,"NA - Not Applicable","Ticket","Conviction - Fined",305,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51416,"10384957","102500668","TOUCH","Food Court Vendor","Conditional Pass",3,"Operator fail to provide accurate indicating thermometer(s)",2011-04-15,"S - Significant","Notice to Comply","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51420,"10384957","102500669","TOUCH","Food Court Vendor","Pass",3,"",2011-04-18,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",53162,"10390332","102660348","INTERNATIONAL NEWS","Food Store (Convenience / Variety)","Pass",1,"",2012-01-03,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",51424,"10384957","102777615","TOUCH","Food Court Vendor","Pass",3,"",2012-06-29,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 ADELAIDE ST E",18850,"9337616","102698568","STARBUCKS","Food Take Out","Pass",1,"",2012-02-21,"","","",NA,"1 Adelaide Street East, Toronto, ON M5C 1J4, Canada",43.6505593,-79.3776407
+"1 AUSTIN TER",63406,"10430134","102829014","SIR HENRY'S CAFE","Banquet Facility","Pass",2,"",2012-09-28,"","","",NA,"1 Austin Terrace, Toronto, ON M5R 1X8, Canada",43.6783823,-79.4092914
+"1 AUSTIN TER",63407,"10430136","102730335","CASA LOMA","Banquet Facility","Pass",3,"",2012-04-13,"","","",NA,"1 Austin Terrace, Toronto, ON M5R 1X8, Canada",43.6783823,-79.4092914
+"1 AUSTIN TER",63405,"10430134","102730308","SIR HENRY'S CAFE","Banquet Facility","Pass",2,"",2012-04-13,"","","",NA,"1 Austin Terrace, Toronto, ON M5R 1X8, Canada",43.6783823,-79.4092914
+"1 AUSTIN TER",63408,"10430136","102752990","CASA LOMA","Banquet Facility","Pass",3,"",2012-05-24,"","","",NA,"1 Austin Terrace, Toronto, ON M5R 1X8, Canada",43.6783823,-79.4092914
+"1 AUSTIN TER",63409,"10430136","102829010","CASA LOMA","Banquet Facility","Pass",3,"",2012-09-28,"","","",NA,"1 Austin Terrace, Toronto, ON M5R 1X8, Canada",43.6783823,-79.4092914
+"1 AVONDALE AVE",27490,"10233710","102505073","STARBUCKS COFFEE CO","Restaurant","Pass",2,"",2011-04-21,"","","",NA,"1 Avondale Avenue, Toronto, ON M2N 4S8, Canada",43.7579661,-79.4097235
+"1 AVONDALE AVE",29972,"10260684","102615872","PIZZA NOVA","Food Take Out","Pass",2,"",2011-10-12,"","","",NA,"1 Avondale Avenue, Toronto, ON M2N 4S8, Canada",43.7579661,-79.4097235
+"1 AVONDALE AVE",29971,"10260684","102505075","PIZZA NOVA","Food Take Out","Pass",2,"",2011-04-21,"","","",NA,"1 Avondale Avenue, Toronto, ON M2N 4S8, Canada",43.7579661,-79.4097235
+"1 AVONDALE AVE",27491,"10233710","102615878","STARBUCKS COFFEE CO","Restaurant","Pass",2,"",2011-10-12,"","","",NA,"1 Avondale Avenue, Toronto, ON M2N 4S8, Canada",43.7579661,-79.4097235
+"1 AVONDALE AVE",29973,"10260684","102821284","PIZZA NOVA","Food Take Out","Pass",2,"",2012-09-10,"","","",NA,"1 Avondale Avenue, Toronto, ON M2N 4S8, Canada",43.7579661,-79.4097235
+"1 AVONDALE AVE",27492,"10233710","102821281","STARBUCKS COFFEE CO","Restaurant","Pass",2,"",2012-09-10,"","","",NA,"1 Avondale Avenue, Toronto, ON M2N 4S8, Canada",43.7579661,-79.4097235
+"1 BALMORAL AVE",65939,"10447475","102845116","JOHN & SONS OYSTER HOUSE","Restaurant","Pass",3,"",2012-10-22,"","","",NA,"1 Balmoral Avenue, Toronto, ON M4V 1J5, Canada",43.6853479,-79.3930809
+"1 BAXTER ST",24564,"10204575","102526514","GOLDEN MINT COFFEE & TEA CO.","Restaurant","Pass",1,"",2011-06-01,"","","",NA,"1 Baxter Street, Toronto, ON M4W 3V8, Canada",43.6752711,-79.3887991
+"1 BAXTER ST",24566,"10204575","102760059","GOLDEN MINT COFFEE & TEA CO.","Restaurant","Pass",1,"",2012-06-04,"","","",NA,"1 Baxter Street, Toronto, ON M4W 3V8, Canada",43.6752711,-79.3887991
+"1 BAXTER ST",24565,"10204575","102644066","GOLDEN MINT COFFEE & TEA CO.","Restaurant","Pass",1,"",2011-11-30,"","","",NA,"1 Baxter Street, Toronto, ON M4W 3V8, Canada",43.6752711,-79.3887991
+"1 BEDFORD RD",59149,"10412094","102808258","STARBUCKS COFFEE","Restaurant","Pass",2,"",2012-08-17,"","","",NA,"1 Bedford Road, Toronto, ON M5R 1A9, Canada",43.6687188,-79.3976417
+"1 BEDFORD RD",59148,"10412094","102685807","STARBUCKS COFFEE","Restaurant","Pass",2,"",2012-01-31,"","","",NA,"1 Bedford Road, Toronto, ON M5R 1A9, Canada",43.6687188,-79.3976417
+"1 BEDFORD RD",59147,"10412094","102592813","STARBUCKS COFFEE","Restaurant","Pass",2,"",2011-09-07,"","","",NA,"1 Bedford Road, Toronto, ON M5R 1A9, Canada",43.6687188,-79.3976417
+"1 BENVENUTO PL",19598,"9388071","102584124","SCARAMOUCHE","Restaurant","Pass",3,"",2011-08-25,"","","",NA,"1 Benvenuto Place, Toronto, ON M4V 1H3, Canada",43.681512,-79.3995746
+"1 BENVENUTO PL",19599,"9388071","102648038","SCARAMOUCHE","Restaurant","Pass",3,"",2011-12-13,"","","",NA,"1 Benvenuto Place, Toronto, ON M4V 1H3, Canada",43.681512,-79.3995746
+"1 BENVENUTO PL",19600,"9388071","102730854","SCARAMOUCHE","Restaurant","Pass",3,"",2012-04-19,"","","",NA,"1 Benvenuto Place, Toronto, ON M4V 1H3, Canada",43.681512,-79.3995746
+"1 BENVENUTO PL",19602,"9388071","102877595","SCARAMOUCHE","Restaurant","Pass",3,"",2012-12-18,"","","",NA,"1 Benvenuto Place, Toronto, ON M4V 1H3, Canada",43.681512,-79.3995746
+"1 BENVENUTO PL",19601,"9388071","102811439","SCARAMOUCHE","Restaurant","Pass",3,"",2012-08-30,"","","",NA,"1 Benvenuto Place, Toronto, ON M4V 1H3, Canada",43.681512,-79.3995746
+"1 BENVENUTO PL",19597,"9388071","102496871","SCARAMOUCHE","Restaurant","Pass",3,"",2011-04-12,"","","",NA,"1 Benvenuto Place, Toronto, ON M4V 1H3, Canada",43.681512,-79.3995746
+"1 BESTOBELL RD",127,"9000241","102758563","FANTIS FOODS OF CANADA LTD.","Food Depot","Pass",1,"",2012-05-31,"","","",NA,"1 Bestobell Road, Toronto, ON M8W 2T7, Canada",43.6133081,-79.5404937
+"1 BLUE GOOSE ST",20056,"9393543","102898122","THE BLUE GOOSE TAVERN","Restaurant","Pass",2,"",2013-01-07,"","","",NA,"1 Blue Goose Street, Etobicoke, ON M8V 3V6, Canada",43.6166917,-79.4958202
+"1 BLUE GOOSE ST",20055,"9393543","102481489","THE BLUE GOOSE TAVERN","Restaurant","Pass",2,"",2011-03-14,"","","",NA,"1 Blue Goose Street, Etobicoke, ON M8V 3V6, Canada",43.6166917,-79.4958202
+"1 BLUE JAYS WAY",11524,"9015576","102795049","ARRIBA","Restaurant","Pass",3,"",2012-07-26,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35068,"10300056","102491391","CONCESSION V533","Food Take Out","Pass",2,"",2011-04-04,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",11525,"9015576","102869272","ARRIBA","Restaurant","Pass",3,"",2012-11-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35135,"10300141","102818077","3RD BASE LOUNGE","Food Take Out","Pass",1,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35088,"10300069","102824442","CONCESSION 209","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38258,"10325719","102824426","SATELLITE KITCHEN #3","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",60367,"10417041","102625579","COLDSTONE EXPRESS - 524","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35089,"10300071","102491375","CONCESSION 120","Food Take Out","Pass",2,"",2011-04-04,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",60551,"10417519","102734320","TIM HORTONS - C08","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",49249,"10376482","102499890","1ST BASE LOUNGE","Food Take Out","Pass",2,"",2011-04-01,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",30101,"10261867","102869265","INTERNATIONAL NEWS","Food Store (Convenience / Variety)","Pass",1,"",2012-11-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39892,"10334786","102491402","MUDDY YORK","Food Take Out","Pass",3,"",2011-04-01,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35091,"10300071","102772711","CONCESSION 120","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",11521,"9015576","102517457","ARRIBA","Restaurant","Pass",3,"",2011-05-17,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39877,"10334647","102831638","KING'S CLUB","Food Take Out","Pass",3,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35086,"10300069","102625165","CONCESSION 209","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35129,"10300125","102831661","1st BASE EXPRESS - 214","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39894,"10334786","102734753","MUDDY YORK","Food Take Out","Pass",3,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35090,"10300071","102625232","CONCESSION 120","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35087,"10300069","102772728","CONCESSION 209","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",11522,"9015576","102624255","ARRIBA","Restaurant","Pass",3,"",2011-10-27,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38255,"10325719","102491625","SATELLITE KITCHEN #3","Food Take Out","Pass",2,"",2011-03-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39882,"10334654","102824443","CONCESSION 529","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",46706,"10365046","102491382","CONCESSION 106 - MUDDY YORK","Food Take Out","Pass",2,"",2011-04-04,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39895,"10334786","102824436","MUDDY YORK","Food Take Out","Pass",3,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35094,"10300076","102491369","CONCESSION 123","Food Take Out","Pass",2,"",2011-04-04,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39881,"10334654","102740000","CONCESSION 529","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39880,"10334654","102625179","CONCESSION 529","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35061,"10300050","102772764","CONCESSION 523","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35132,"10300141","102499892","3RD BASE LOUNGE","Food Take Out","Pass",1,"",2011-04-01,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35133,"10300141","102626972","3RD BASE LOUNGE","Food Take Out","Pass",1,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35085,"10300069","102491596","CONCESSION 209","Food Take Out","Pass",2,"",2011-03-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35092,"10300071","102818073","CONCESSION 120","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35083,"10300066","102739779","CONCESSION  220","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38256,"10325719","102627039","SATELLITE KITCHEN #3","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",46704,"10365045","102625233","PIZZA PIZZA 508","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",46509,"10364741","102739712","MUDDY YORK FRESH EXPRESS - 218","Food Take Out","Pass",3,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",60550,"10417519","102628915","TIM HORTONS - C08","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",46460,"10364708","102491642","BLUE JAYS MEDIA LOUNGE","Food Take Out","Pass",2,"",2011-03-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",60552,"10417519","102832590","TIM HORTONS - C08","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38268,"10325730","102627040","SATELLITE KITCHEN #4","Food Take Out","Conditional Pass",2,"Store ice in unsanitary manner O. Reg  562/90 Sec. 31(1)",2011-10-30,"C - Crucial","Notice to Comply","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38257,"10325719","102741665","SATELLITE KITCHEN #3","Food Take Out","Pass",2,"",2012-04-27,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35062,"10300050","102832288","CONCESSION 523","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35134,"10300141","102734870","3RD BASE LOUNGE","Food Take Out","Pass",1,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39876,"10334647","102734749","KING'S CLUB","Food Take Out","Pass",3,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35093,"10300071","102879309","CONCESSION 120","Food Take Out","Pass",2,"",2012-12-16,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39873,"10334647","102499888","KING'S CLUB","Food Take Out","Pass",3,"",2011-04-01,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",49250,"10376482","102772730","1ST BASE LOUNGE","Food Take Out","Pass",2,"",2012-04-11,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35069,"10300056","102627037","CONCESSION V533","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35084,"10300066","102831608","CONCESSION  220","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",46589,"10364861","102832557","HOGTOWN GRILL - CONCESSION 128","Food Take Out","Pass",2,"",2012-08-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",39898,"10334795","102627038","HOGTOWN GRILL EXPRESS - 131","Food Take Out","Pass",2,"",2011-10-30,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",35107,"10300083","102890381","HSBC CLUB KITCHEN","Food Take Out","Pass",3,"",2012-12-16,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38267,"10325730","102491630","SATELLITE KITCHEN #4","Food Take Out","Pass",2,"",2011-03-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
+"1 BLUE JAYS WAY",38259,"10325721","102491618","SATELLITE KITCHEN #2","Food Take Out","Pass",2,"",2011-03-31,"","","",NA,"1 Blue Jays Way, Toronto, ON M5V 1J3, Canada",43.6423485,-79.3906108
