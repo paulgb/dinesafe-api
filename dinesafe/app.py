@@ -3,10 +3,12 @@ import cherrypy
 
 from data import RestaurantDatabase
 from jsonapi import json_api
+from jinja2 import Template
 
 class APIServer(object):
     def __init__(self, restaurants):
         self.restaurants = restaurants
+        self.info_template = Template(file('info.html').read())
 
     @json_api
     def index(self):
@@ -38,6 +40,11 @@ class APIServer(object):
     def all(self):
         return restaurants.all()
 
+    @cherrypy.expose
+    def info(self, id):
+        restaurant = restaurants.find_by_id(long(id))
+        return self.info_template.render(restaurant=restaurant)
+
 if __name__ == '__main__':
     DATA_FILE = 'data.csv'
     restaurants = RestaurantDatabase()
@@ -45,6 +52,4 @@ if __name__ == '__main__':
 
     cherrypy.server.socket_host = '0.0.0.0'
     cherrypy.quickstart(APIServer(restaurants))
-
-app = Flask(__name__)
 

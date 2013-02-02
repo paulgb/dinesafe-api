@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>{{ restaurant.name }}</title>
+        <style>
+            body {
+                font-family: helvetica, sans-serif;
+            }
+
+            #content {
+                width: 900px;
+                margin: 10px auto;
+            }
+
+            .address {
+                font-style: italic;
+                margin-bottom: 30px;
+                margin-top: -20px;
+            }
+
+            .score {
+                float: right;
+                font-size: 30px;
+                margin-top: 21.4px;
+            }
+
+            .date {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="content">
+        <div style="float: left;">
+            <h1>{{ restaurant.name }}</h1>
+            <div class="address">{{ restaurant.address }}</div>
+        </div>
+        <div class="score">Score: <strong>{{ restaurant.score }}</strong></div>
+        <br clear="both" />
+        {% for inspection in restaurant.inspections.values() %}
+                <div class="inspection">
+                    <h2 class="date">Inspection on {{ inspection.date }} ({{ inspection.status}})</h3>
+                    {% if inspection.infractions %}
+                    <h3>Infractions</h3>
+                    <ul>
+                        {% for infraction in inspection.infractions %}
+                            <li class="infraction">
+                                {{ infraction.details }} - {{ infraction.severity }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+    </body>
+</html>
