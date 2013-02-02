@@ -1,7 +1,7 @@
 DineSafe API Server
 ===================
 
-A simple API to access DineSafe data. In addition to the data published by DineSafe, the results include the geocoded coordinates of the address and a point score assigned based on recent infractions. The server loads the data into an in-memory R-Tree to provide efficient location queries.
+A simple API to access DineSafe data. In addition to the data published by Toronto Public Health's [DineSafe](http://www.toronto.ca/health/dinesafe/index.htm), the results include the geocoded coordinates of the address and a point score assigned based on recent infractions. The server loads the data into an in-memory R-Tree to provide efficient location queries.
 
 Calls
 -----
