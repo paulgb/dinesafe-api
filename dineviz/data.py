@@ -13,7 +13,6 @@ class RestaurantDatabase(object):
 
     def load_csv(self, fh):
         reader = DictReader(fh)
-        print 'foo'
 
         for row in reader:
             establishment_id = long(row['establishment_id'])
@@ -25,6 +24,7 @@ class RestaurantDatabase(object):
                 lon = float(row['lon'])
 
                 establishment['name'] = row['establishment_name']
+                establishment['score'] = row['score']
                 establishment['lat'] = lat
                 establishment['lon'] = lon
                 establishment['address'] = row['establishment_address']
@@ -67,5 +67,7 @@ class RestaurantDatabase(object):
         nearest = self.tree.nearest((lat, lon, lat, lon), n)
         return list(self.establishments[x] for x in nearest)
         
+    def find_by_id(self, id):
+        return self.establishments[id]
 
 

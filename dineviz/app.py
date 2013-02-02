@@ -23,8 +23,13 @@ class APIServer(object):
         n = int(n)
         return restaurants.find_nearest(lat, lon, n)
 
+    @json_api
+    def establishment(self, id):
+        id = long(id)
+        return restaurants.find_by_id(id)
+
 if __name__ == '__main__':
-    DATA_FILE = 'sample.csv'
+    DATA_FILE = 'data.csv'
     restaurants = RestaurantDatabase()
     restaurants.load_csv(file(DATA_FILE))
 
