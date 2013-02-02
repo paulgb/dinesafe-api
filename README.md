@@ -136,7 +136,7 @@ Return the _n_ nearest results to a given coordinate. _n_ defaults to 10.
 
 #### Example Request
 
-    /near?lat=-79.2653504&lon=43.7712337&n=2
+    http://[base_url]/near?lat=-79.2653504&lon=43.7712337&n=2
 
 #### Example Response
 
